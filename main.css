@@ -2,6 +2,7 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+
 .container h1{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
@@ -12,7 +13,7 @@ body{
 }
 
 .title-initial-color{
-    color: blue;
+    color: rgb(119, 119, 235);
 }
 
 #cabecalho img{
@@ -22,7 +23,7 @@ body{
 
 #cabecalho .nav .nav-link.active{
     background-color: white;
-    color: blue;
+    color: rgb(119, 119, 235);
 }
 
 #cabecalho .nav .nav-link,
@@ -32,9 +33,63 @@ body{
 }
 
 .navbar{
-    background-color: blue;
+    background-color: rgb(119, 119, 235);
 }
 
 .text-menu{
     color: white;
+}
+
+.img-sobr{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#nossos-cultos img{
+    border-radius: 20px;
+}
+
+#nossos-cultos{
+    background-color: rgb(237, 237, 243);
+}
+
+.nav-contribua{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link,
+.nav-link:hover{
+    color: rgb(119, 119, 235);
+}
+
+#contribua .nav-link.active{
+    background-color: rgb(119, 119, 235);
+    color: white;
+}
+
+.construcao img{
+    border-radius: 10px;
+}
+
+.img-con{
+    height: 80%;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(119, 119, 235);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icons a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
 }
