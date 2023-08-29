@@ -1,0 +1,36 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.container h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+.title-initial{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.title-initial-color{
+    color: blue;
+}
+
+#cabecalho img{
+    width: 60px;
+    margin-right: 12px;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: white;
+    color: blue;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar{
+    background-color: blue;
+}
